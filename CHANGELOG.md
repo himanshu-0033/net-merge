@@ -5,6 +5,8 @@ entry here before pushing a version tag.
 
 ## [Unreleased]
 
+- Added a Windows check for physical adapter traffic during parallel HTTPS downloads.
+
 ## [0.3.7] - 2026-11-09
 
 ### Fixed

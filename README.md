@@ -370,6 +370,10 @@ Tips:
   site that only has IPv6.
 - `net-merge list` shows which connections are used and why others are skipped. `net-merge status`
   shows live numbers.
+- On Windows, run `.\scripts\windows-link-check.ps1` from a checkout to see which physical adapters
+  receive traffic during nine parallel HTTPS downloads (about 4.8 MB total). It uses your current
+  routing and VPN settings. Adapter totals include background traffic, so pause other large
+  downloads before testing. Compare the totals with the per-adapter flows in `net-merge status`.
 
 ## Troubleshooting
 
